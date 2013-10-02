@@ -1,0 +1,23 @@
+extends layout
+ 
+block content
+  div.top
+    h1= title
+    p Welcome to #{title}'s Web
+  div.container
+    div.content
+        img(src='/img/eliu.png')
+        p.description It's me bitch! I rock!
+        div#save
+            fieldset
+                legend Leave a message!
+                label Author
+                input(id="author", type="text", placeholder="Write your name")
+                br
+                label Message
+                input(id="message", type="text", placeholder="Write your message")
+                br
+                button(type="submit", class="btn btn-primary", id="submitButton") Post Message
+        div#messages
+            legend Guestbook!
+  div.footer

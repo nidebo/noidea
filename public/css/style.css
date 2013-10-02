@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img {
+    height: 200px;
+    margin: 30px;
+}
+
+.description {
+    margin-left: 35px;
+    color: blue;
+    font-size: large;
+}
+
+#save {
+    margin-bottom: 20px;
+}
+
+.save-info-ok {
+    margin-top: 6px;
+    color: green;
+}
+
+.save-info-bad {
+    margin-top: 6px;
+    color: red;
+}
+.message-element {
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+.message-author {
+    font-weight: bold;
+}
+
+.message-date {
+    font-size: small;
+    color: #A4A4A4;
+}
